@@ -1,0 +1,70 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#instructions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.instructions {
+    width: 600px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+}
+
+#wins-losses-container, #random-number-container, #total-score-container {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#wins-losses-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+}
+
+#random-number-container {
+    background-color: green;
+    margin-right: 10px;
+}
+
+#total-score-container {
+    background-color: lightseagreen;
+}
+
+.game-number {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+#crystal-container {
+    display: flex;
+    justify-content: center;
+}

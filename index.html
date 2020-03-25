@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+    <h1>Crystal Collector!</h1>
+    <div id="instructions-container">
+        <p class="instructions">You will be given a random number at the start of the game.</p>
+        <p class="instructions">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p class="instructions">You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p class="instructions">The value of each crystal is hidden from you until you click on it.</p>
+        <p class="instructions">Each time the game starts, the game will change the values of each crystal.</p>
+        <div id="wins-losses-container">
+            <div id="wins-container">
+                <p>Wins</p>
+                <p id="win-count" class="game-number">10</p>
+            </div>
+            <div id="losses-container">
+                <p>Losses</p>
+                <p id="losses-count" class="game-number">20</p>
+            </div>
+        </div>
+    </div>
+    <div id="crystal-container">
+        <img src="assets/images/diamond.png" />
+        <img src="assets/images/emerald.png" />
+        <img src="assets/images/lapis-lazuli.png" />
+        <img src="assets/images/redstone.png" />
+    </div>
+    <div id="game-container">
+        <div id="random-number-container">
+            <p>Random number</p>
+            <p id="random-number" class="game-number">40</p>
+        </div>
+        <div id="total-score-container">
+            <p>Total score</p>
+            <p id="total-score" class="game-number">40</p>
+        </div>
+    </div>
+</body>
+</html>
