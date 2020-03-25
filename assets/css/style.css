@@ -28,6 +28,12 @@ p.instructions {
     text-align: justify;
 }
 
+#wins-losses-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+}
+
 #game-container {
     display: flex;
     justify-content: center;
@@ -42,12 +48,6 @@ p.instructions {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-
-#wins-losses-container {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: palevioletred;
 }
 
 #random-number-container {
@@ -67,4 +67,12 @@ p.instructions {
 #crystal-container {
     display: flex;
     justify-content: center;
+}
+
+#win-lose-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 45px;
 }
